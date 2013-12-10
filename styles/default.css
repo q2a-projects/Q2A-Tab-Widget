@@ -1,0 +1,78 @@
+.tabs {
+    clear: both;
+    float: left;
+    list-style: none outside none;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.tab-active {
+   color: #000000 !important;
+}
+.tabs > li {
+    display: block;
+    float: left;
+    width: 50%;
+	box-shadow: 0 2px 0 rgba(217, 224, 226, 0.2);
+}
+.tabs > li:last-child > a{
+    border-left: 1px solid #DDDDDD;
+	margin-left: -1px;
+}
+.tabs > li > a {
+	color: #888;
+    display: table;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+	text-decoration:none;
+	margin: 0;
+    width: 100%;
+}
+
+.tab-content {
+    display: inline-block;
+}
+.tab-content > ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.tab-content > ul > li {
+	border-bottom: 1px solid #EEEEEE;
+	padding: 5px;
+}
+.tab-content > ul > li:hover {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.tab-link{
+	color: #235272;
+	text-decoration:none;
+}
+.tab-link:hover{
+	text-decoration:underline;
+}
+
+.tab-time{
+}
+.tab-link-header{
+    margin: 0;
+}
+.tab-div-thumb{
+	float: left;
+    height: 50px;
+    margin-right: 5px;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    width: 60px;
+}
+.tab-thumbnail{
+	border-radius: 0.2em;
+}
+.tab-ads {
+    border-bottom: 1px solid #EEEEEE;
+    margin: 8px 0;
+}
