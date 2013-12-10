@@ -1,16 +1,16 @@
 <?php
 
 /*
-	Plugin Name: tabs widget
-	Plugin URI: 
+	Plugin Name: Tabs Widget
+	Plugin URI: https://github.com/Towhidn/Q2A-Tab-Widget
 	Plugin Description: popular & recent questions tab
 	Plugin Version: 1.0.0
 	Plugin Date: 
 	Plugin Author: qa-themes.com
 	Plugin Author URI: http://www.qa-themes.com/
-	Plugin License: 
+	Plugin License: GPLv3+
 	Plugin Minimum Question2Answer Version: 1.6
-	Plugin Update Check URI: 
+	Plugin Update Check URI: https://raw.github.com/Towhidn/Q2A-Tab-Widget/master/qa-plugin.ph
 */
 
 
