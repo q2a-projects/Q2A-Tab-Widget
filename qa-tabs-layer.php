@@ -2,7 +2,7 @@
 
 	class qa_html_theme_layer extends qa_html_theme_base {
 		var $tabs_plugin_url;
-		function qa_html_theme_layer($template, $content, $rooturl, $request)
+		function __construct($template, $content, $rooturl, $request)
 		{
 			global $qa_layers;
 			$this->tabs_plugin_url = $qa_layers['Tabs Layer']['urltoroot'];
